@@ -10,7 +10,7 @@ Our goal is to make logging cheaper in terms of memory consumption. In order to 
 
 Fluent Bit must be deployed as a DaemonSet, on that way it will be available on every node of your Kubernetes cluster.
 
-This repository contains two Yaml DaemonSet files:
+This repository contains one Yaml DaemonSet file:
 
 | Yaml file | Description |
 |-----------|-------------|
@@ -18,7 +18,7 @@ This repository contains two Yaml DaemonSet files:
 
 The current DaemonSet points to this specific Docker Hub image:
 
-[0.11](https://hub.docker.com/r/fluent/fluent-bit-kubernetes-daemonset/tags/) fluent/fluent-bit-kubernetes-daemonset:0.11
+[0.11.3](https://hub.docker.com/r/gganssauge/fluent-bit-kubernetes-daemonset-arm/tags/) fluent/fluent-bit-kubernetes-daemonset-arm:0.11.3
 
 ### Steps
 
