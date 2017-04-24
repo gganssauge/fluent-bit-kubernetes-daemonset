@@ -8,6 +8,7 @@ Our goal is to make logging cheaper in terms of memory consumption. In order to 
 
 ## Changes when compared to [fluent/fluent-bit-kubernetes-daemonset](https://github.com/fluent/fluent-bit-kubernetes-daemonset)
 The original daemon set uses fluent-bit compiled for AMD64 whereas this repository builds on fluent-bit compiled for ARM on raspberry pi 3.
+See also [gganssauge/fluent-bit-arm](https://github.com/gganssauge/fluent-bit-arm).
 
 ## Getting started
 
