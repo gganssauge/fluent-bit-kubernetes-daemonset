@@ -1,5 +1,5 @@
-FROM fluent/fluent-bit:0.11.3
-MAINTAINER Eduardo Silva <eduardo@treasure-data.com>
+FROM gganssauge/fluent-bit-arm:0.11.3
+MAINTAINER Gottfried Ganßauge <ganssauge@gmx.de>
 USER root
 
 COPY fluent-bit.conf /fluent-bit/etc/
