@@ -6,6 +6,9 @@ Our goal is to make logging cheaper in terms of memory consumption. In order to 
 
 > Note: Fluent Bit uses a binary representation for logs, converting this to JSON requires enough memory for the process.
 
+## Changes when compared to [fluent/fluent-bit-kubernetes-daemonset](https://github.com/fluent/fluent-bit-kubernetes-daemonset)
+The original daemon set uses fluent-bit compiled for AMD64 whereas this repository builds on fluent-bit compiled for ARM on raspberry pi 3.
+
 ## Getting started
 
 Fluent Bit must be deployed as a DaemonSet, on that way it will be available on every node of your Kubernetes cluster.
